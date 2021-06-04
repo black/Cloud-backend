@@ -1,0 +1,17 @@
+{
+  "name": "kafka-with-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start-producer": "node ./producer/index.js",
+    "start-consumer": "node ./consumer/index.js"
+  },
+  "author": "black",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.0",
+    "node-rdkafka": "^2.10.1"
+  }
+}
