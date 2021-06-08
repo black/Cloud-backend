@@ -2,7 +2,7 @@ import Kafka from "node-rdkafka"
 
 const consumer = Kafka.KafkaConsumer( /*passing broker list*/ {
     'group.id': 'kafka',
-    'metadata.broker.list.list': 'localhost:9092'
+    'metadata.broker.list': 'localhost:9092'
 }, {});
 
 consumer.connect()
